@@ -4,7 +4,7 @@ import Presentation from "../../components/Presentation";
 
 function Homepage() {
     return (
-        <div className="flex flex-col mt-[50px]">
+        <div className="flex flex-col">
             <Wrapper />
             <div>
                 <Presentation />
