@@ -3,7 +3,7 @@ import AboutPicture from "/svg/face.svg";
 
 function Presentation() {
     return (
-        <div className="px-6 pb-8 text-white border-b-2" id="about">
+        <div className="mt-8 px-6 pb-8 text-white border-b-2" id="about">
             <h1 className="text-4xl font-bold">
                 Qui suis-je ?
             </h1>

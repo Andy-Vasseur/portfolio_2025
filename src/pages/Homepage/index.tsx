@@ -1,6 +1,7 @@
 // Components
 import Wrapper from "../../components/Wrapper";
 import Presentation from "../../components/Presentation";
+import Skills from "../../components/Skills";
 
 function Homepage() {
     return (
@@ -8,6 +9,7 @@ function Homepage() {
             <Wrapper />
             <div>
                 <Presentation />
+                <Skills />
             </div>
         </div>
     );
