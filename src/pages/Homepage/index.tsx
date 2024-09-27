@@ -6,7 +6,7 @@ function Homepage() {
     return (
         <div className="flex flex-col mt-[50px]">
             <Wrapper />
-            <div className="px-6">
+            <div>
                 <Presentation />
             </div>
         </div>

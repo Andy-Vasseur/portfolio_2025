@@ -1,8 +1,16 @@
 // Imports
 import { Link } from 'react-router-dom';
 
-// Props
 const Navigation = () => {
+    const smoothScrollTo = (id: string) => {
+        const element = document.getElementById(id);
+        if (element) {
+            element.scrollIntoView({
+                behavior: 'smooth',
+            });
+        }
+    };
+
     return (
         // TO RESET AT THE END
         // <nav className="fixed top-0 left-0 flex justify-between items-center w-full h-[50px] bg-[#0C0C0C] text-white">
@@ -15,9 +23,9 @@ const Navigation = () => {
                         </Link>
                     </li>
                     <li className="flex justify-center items-center h-full">
-                        <Link to="/about" className="hover:underline">
+                        <a href="#about" onClick={() => smoothScrollTo('about')} className="hover:underline">
                             A propos
-                        </Link>
+                        </a>
                     </li>
                     <li className="flex justify-center items-center h-full">
                         <Link to="/skills" className="hover:underline">

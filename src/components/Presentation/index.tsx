@@ -3,7 +3,7 @@ import AboutPicture from "/svg/face.svg";
 
 function Presentation() {
     return (
-        <div className="text-white">
+        <div className="px-6 pb-8 text-white border-b-2" id="about">
             <h1 className="text-4xl font-bold">
                 Qui suis-je ?
             </h1>
@@ -24,7 +24,7 @@ function Presentation() {
                         Voir mon CV
                     </a>
                 </div>
-                <div className="grid place-items-center">
+                <div className="grid place-items-center -mt-8">
                     <img src={AboutPicture} alt="About" className="rounded-lg mt-4 w-3/4" />
                 </div>
             </div>
