@@ -28,19 +28,19 @@ const Navigation = () => {
                         </a>
                     </li>
                     <li className="flex justify-center items-center h-full">
-                        <Link to="/skills" className="hover:underline">
+                        <a href="#skills" className="hover:underline">
                             Compétences
-                        </Link>
+                        </a>
                     </li>
                     <li className="flex justify-center items-center h-full">
-                        <Link to="/projects" className="hover:underline">
+                        <a href="#projects" className="hover:underline">
                             Projets
-                        </Link>
+                        </a>
                     </li>
                     <li className="flex justify-center items-center h-full">
-                        <Link to="/contact" className="hover:underline">
+                        <a href="#contact" className="hover:underline">
                             Contact
-                        </Link>
+                        </a>
                     </li>
                 </ul>
             </div>

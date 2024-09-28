@@ -84,7 +84,7 @@ function Skills() {
     ]
 
     return (
-        <div className="mt-8 px-6 pb-8 text-white border-b-2">
+        <div className="mt-8 px-6 pb-8 text-white border-b-2" id="skills">
             <h1 className="text-4xl font-bold">
                 Compétences
             </h1>
