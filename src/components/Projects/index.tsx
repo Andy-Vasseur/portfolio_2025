@@ -18,22 +18,6 @@ function Projects() {
             image: "/img/amazon.webp"
         },
         {
-            title: "Ghibliothèque",
-            description: "Site de recherche de films du studio Ghibli",
-            language: [
-                {
-                    name: "React",
-                },
-                {
-                    name: "ExpressJS",
-                },
-                {
-                    name: "API",
-                }
-            ],
-            image: "/img/ghibli.webp"
-        },
-        {
             title: "Le Bon Chasseur",
             description: "Site d'informations sur le jeux vidéo The Hunter Call of the Wild",
             language: [
@@ -83,7 +67,7 @@ function Projects() {
         },
         {
             title: "O-Stretch",
-            description: "Site de conseils et d'exercices d'étirements",
+            description: "Site de conseils et d'étirements",
             language: [
                 {
                     name: "React",
@@ -131,19 +115,6 @@ function Projects() {
                 },
             ],
             image: "/img/portfolio.webp"
-        },
-        {
-            title: "Preview Card",
-            description: "Exercice Frontend Mentor",
-            language: [
-                {
-                    name: "React",
-                },
-                {
-                    name: "SCSS",
-                }
-            ],
-            image: "/img/previewcard.webp"
         },
         {
             title: "Border Radius Generator",
@@ -209,14 +180,14 @@ function Projects() {
     ]
 
     return (
-        <div className="mt-8 px-6 pb-8 text-white border-b-2" id="projects">
+        <div className="flex flex-col justify-center items-center mt-8 px-6 pb-8 text-white border-b-2" id="projects">
             <h1 className="text-4xl font-bold">
                 Projets
             </h1>
 
             <div className="grid gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3">
                 {projects.map((project, index) => (
-                    <div key={index} className="grid place-items-center w-full h-full p-4 rounded-lg shadow-neon">
+                    <div key={index} className="grid place-items-center h-full p-4 rounded-lg shadow-neon">
                         <img src={project.image} loading="lazy" alt={project.title}
                             className="rounded-lg" />
                         <h2 className="text-2xl font-bold mt-4">{project.title}</h2>
