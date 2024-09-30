@@ -2,6 +2,7 @@
 import Wrapper from "../../components/Wrapper";
 import Presentation from "../../components/Presentation";
 import Skills from "../../components/Skills";
+import Projects from "../../components/Projects";
 
 function Homepage() {
     return (
@@ -9,6 +10,7 @@ function Homepage() {
             <Wrapper />
             <div>
                 <Presentation />
+                <Projects />
                 <Skills />
             </div>
         </div>

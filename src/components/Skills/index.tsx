@@ -95,7 +95,7 @@ function Skills() {
                     <div className="grid grid-cols-4 md:grid-cols-5 gap-4">
                         {frontendSkills.map((skill, index) => (
                             <div key={index} className="grid place-items-center">
-                                <img src={skill.icon} alt={skill.name} className="rounded-lg w-16 h-16 bg-black p-4 shadow-neon" />
+                                <img src={skill.icon} alt={skill.name} loading="lazy" className="rounded-lg w-16 h-16 bg-black p-4 shadow-neon" />
                                 <p className="mt-3 md:mt-4 text-md text-center md:text-lg">{skill.name}</p>
                             </div>
                         ))}
@@ -107,7 +107,7 @@ function Skills() {
                     <div className="grid grid-cols-4 md:grid-cols-5 gap-4">
                         {backendSkills.map((skill, index) => (
                             <div key={index} className="grid place-items-center">
-                                <img src={skill.icon} alt={skill.name} className="rounded-lg w-16 h-16 bg-black p-4 shadow-neon" />
+                                <img src={skill.icon} alt={skill.name} loading="lazy" className="rounded-lg w-16 h-16 bg-black p-4 shadow-neon" />
                                 <p className="mt-3 md:mt-4 text-md text-center md:text-lg">{skill.name}</p>
                             </div>
                         ))}
@@ -119,7 +119,7 @@ function Skills() {
                     <div className="grid grid-cols-4 md:grid-cols-5 gap-4">
                         {softwares.map((software, index) => (
                             <div key={index} className="grid place-items-center">
-                                <img src={software.icon} alt={software.name} className="rounded-lg w-16 h-16 bg-black p-4 shadow-neon" />
+                                <img src={software.icon} alt={software.name} loading="lazy" className="rounded-lg w-16 h-16 bg-black p-4 shadow-neon" />
                                 <p className="mt-3 md:mt-4 text-md text-center md:text-lg">{software.name}</p>
                             </div>
                         ))}
