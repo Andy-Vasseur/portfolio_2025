@@ -15,7 +15,7 @@ function Projects() {
                     name: "MongoDB",
                 }
             ],
-            image: "/img/amazon.webp"
+            image: "/img/projects/amazon.webp"
         },
         {
             title: "Le Bon Chasseur",
@@ -31,7 +31,7 @@ function Projects() {
                     name: "PostgreSQL",
                 }
             ],
-            image: "/img/lebonchasseur.webp"
+            image: "/img/projects/lebonchasseur.webp"
         },
         {
             title: "Movie App",
@@ -44,7 +44,7 @@ function Projects() {
                     name: "SCSS",
                 }
             ],
-            image: "/img/movieapp.webp"
+            image: "/img/projects/movieapp.webp"
         },
         {
             title: "Netflix Clone",
@@ -63,7 +63,7 @@ function Projects() {
                     name: "Firebase",
                 }
             ],
-            image: "/img/netflix.webp"
+            image: "/img/projects/netflix.webp"
         },
         {
             title: "O-Stretch",
@@ -82,7 +82,7 @@ function Projects() {
                     name: "PostgreSQL",
                 }
             ],
-            image: "/img/ostretch.webp"
+            image: "/img/projects/ostretch.webp"
         },
         {
             title: "PokeApp",
@@ -98,7 +98,7 @@ function Projects() {
                     name: "API",
                 }
             ],
-            image: "/img/pokeapp.webp"
+            image: "/img/projects/pokeapp.webp"
         },
         {
             title: "Portfolio",
@@ -114,7 +114,7 @@ function Projects() {
                     name: "TailwindCSS",
                 },
             ],
-            image: "/img/portfolio.webp"
+            image: "/img/projects/portfolio.webp"
         },
         {
             title: "Border Radius Generator",
@@ -127,7 +127,7 @@ function Projects() {
                     name: "SCSS",
                 }
             ],
-            image: "/img/radiusgenerator.webp"
+            image: "/img/projects/radiusgenerator.webp"
         },
         {
             title: "REST Countries API",
@@ -143,7 +143,7 @@ function Projects() {
                     name: "API",
                 }
             ],
-            image: "/img/restcountries.webp"
+            image: "/img/projects/restcountries.webp"
         },
         {
             title: "Starbucks Clone",
@@ -156,7 +156,7 @@ function Projects() {
                     name: "SCSS",
                 }
             ],
-            image: "/img/starbucks.webp"
+            image: "/img/projects/starbucks.webp"
         },
         {
             title: "Task Board",
@@ -175,7 +175,7 @@ function Projects() {
                     name: "ExpressJS",
                 }
             ],
-            image: "/img/taskboard.webp"
+            image: "/img/projects/taskboard.webp"
         }
     ]
 

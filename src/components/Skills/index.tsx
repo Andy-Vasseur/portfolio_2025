@@ -1,17 +1,17 @@
 // Assets
-import ReactIcon from "/svg/frontend/react.svg";
-import TypescriptIcon from "/svg/frontend/typescript.svg";
-import SassIcon from "/svg/frontend/sass.svg";
-import ElectronIcon from "/svg/frontend/electron.svg";
-import TailwindIcon from "/svg/frontend/tailwindcss.svg";
-import ExpressIcon from "/svg/backend/express.svg";
-import NodeIcon from "/svg/backend/node.svg";
-import MongoIcon from "/svg/backend/mongo.svg";
-import PostgreSQLIcon from "/svg/backend/postgre.svg";
-import PhotoshopIcon from "/svg/softwares/photoshop.svg";
-import AndroidIcon from "/svg/softwares/androidstudio.svg";
-import PostmanIcon from "/svg/softwares/postman.svg";
-import FigmaIcon from "/svg/softwares/figma.svg";
+import ReactIcon from "/img/frontend/react.webp";
+import TypescriptIcon from "/img/frontend/typescript.webp";
+import SassIcon from "/img/frontend/sass.webp";
+import ElectronIcon from "/img/frontend/electron.webp";
+import TailwindIcon from "/img/frontend/tailwindcss.webp";
+import ExpressIcon from "/img/backend/express.webp";
+import NodeIcon from "/img/backend/node.webp";
+import MongoIcon from "/img/backend/mongo.webp";
+import PostgreSQLIcon from "/img/backend/postgre.webp";
+import PhotoshopIcon from "/img/softwares/photoshop.webp";
+import AndroidIcon from "/img/softwares/androidstudio.webp";
+import PostmanIcon from "/img/softwares/postman.webp";
+import FigmaIcon from "/img/softwares/figma.webp";
 
 function Skills() {
     const frontendSkills = [
@@ -95,7 +95,9 @@ function Skills() {
                     <div className="grid grid-cols-4 md:grid-cols-5 gap-4">
                         {frontendSkills.map((skill, index) => (
                             <div key={index} className="grid place-items-center">
-                                <img src={skill.icon} alt={skill.name} loading="lazy" className="rounded-lg w-16 h-16 bg-black p-4 shadow-neon" />
+                                <span className="p-3  flex justify-center items-center w-20 h-20 bg-black rounded-lg shadow-neon">
+                                    <img src={skill.icon} alt={skill.name} loading="lazy" className="p-3 w-full" />
+                                </span>
                                 <p className="mt-3 md:mt-4 text-md text-center md:text-lg">{skill.name}</p>
                             </div>
                         ))}
@@ -107,7 +109,9 @@ function Skills() {
                     <div className="grid grid-cols-4 md:grid-cols-5 gap-4">
                         {backendSkills.map((skill, index) => (
                             <div key={index} className="grid place-items-center">
-                                <img src={skill.icon} alt={skill.name} loading="lazy" className="rounded-lg w-16 h-16 bg-black p-4 shadow-neon" />
+                                <span className="p-3  flex justify-center items-center w-20 h-20 bg-black rounded-lg shadow-neon">
+                                    <img src={skill.icon} alt={skill.name} loading="lazy" className="p-3 " />
+                                </span>
                                 <p className="mt-3 md:mt-4 text-md text-center md:text-lg">{skill.name}</p>
                             </div>
                         ))}
@@ -119,7 +123,9 @@ function Skills() {
                     <div className="grid grid-cols-4 md:grid-cols-5 gap-4">
                         {softwares.map((software, index) => (
                             <div key={index} className="grid place-items-center">
-                                <img src={software.icon} alt={software.name} loading="lazy" className="rounded-lg w-16 h-16 bg-black p-4 shadow-neon" />
+                                <span className="p-3  flex justify-center items-center w-20 h-20 bg-black rounded-lg shadow-neon">
+                                    <img src={software.icon} alt={software.name} loading="lazy" className="p-3 h-full" />
+                                </span>
                                 <p className="mt-3 md:mt-4 text-md text-center md:text-lg">{software.name}</p>
                             </div>
                         ))}
