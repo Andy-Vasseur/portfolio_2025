@@ -3,6 +3,7 @@ import Wrapper from "../../components/Wrapper";
 import Presentation from "../../components/Presentation";
 import Skills from "../../components/Skills";
 import Projects from "../../components/Projects";
+import Contact from "../../components/Contact";
 
 function Homepage() {
     return (
@@ -12,6 +13,7 @@ function Homepage() {
                 <Presentation />
                 <Projects />
                 <Skills />
+                <Contact />
             </div>
         </div>
     );
