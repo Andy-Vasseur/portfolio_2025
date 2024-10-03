@@ -12,9 +12,8 @@ const Navigation = () => {
     };
 
     return (
-        // TO RESET AT THE END
-        // <nav className="fixed top-0 left-0 flex justify-between items-center w-full h-[50px] bg-[#0C0C0C] text-white">
-        <nav className="flex justify-between items-center w-full h-[50px] bg-[#0C0C0C] text-white">
+        <nav className="fixed top-0 left-0 flex justify-between items-center w-full h-[50px] text-white border-b border-white bg-[#0C0C0C]">
+            {/* <nav className="flex justify-between items-center w-full h-[50px] text-white border-b border-white bg-[#0C0C0C]"> */}
             <div className="flex justify-start items-center h-full">
                 <ul className="flex justify-center items-center gap-4 h-full text-white uppercase text-xs font-medium">
                     <li className="flex justify-center items-center w-[50px] h-[50px] text-[#0C0C0C] font-black bg-white">

@@ -12,7 +12,7 @@ import Navigation from './components/Navigation';
 function App() {
 
   return (
-    <div className='w-screen m-w-screen max-w-screen h-screen min-h-screen max-h-screen bg-[#0C0C0C]'>
+    <div className='w-screen m-w-screen max-w-screen h-screen min-h-screen max-h-screen bg-[#0C0C0C] overflow-x-hidden'>
       <Message />
       <Navigation />
       <Routes>

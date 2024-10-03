@@ -163,9 +163,6 @@ function Projects() {
             description: "Application de gestion de tâches à faire",
             language: [
                 {
-                    name: "React",
-                },
-                {
                     name: "Typescript",
                 },
                 {
@@ -189,7 +186,7 @@ function Projects() {
                 {projects.map((project, index) => (
                     <div key={index} className="grid place-items-center h-full p-4 rounded-lg shadow-neon">
                         <img src={project.image} loading="lazy" alt={project.title}
-                            className="rounded-lg" />
+                            className="rounded-lg w-full h-48 object-cover" />
                         <h2 className="text-2xl font-bold mt-4">{project.title}</h2>
                         <p className="text-center mt-4">{project.description}</p>
                         <p className="text-center mt-4">
