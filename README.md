@@ -1,9 +1,13 @@
-
 # Andy Vasseur's Portfolio
 
 Welcome to my personal portfolio. This project showcases my work as a developer and is built using modern web technologies including ViteJS, TypeScript, and TailwindCSS. Not the final version yet, but I'm still working on it !
 
+<div align="center">
+  <img src="./public/img/projects/portfolio.webp" alt="App Screenshot" width="1000"/>
+</div>
+
 ## Table of Contents
+
 - [Introduction](#introduction)
 - [Features](#features)
 - [Installation](#installation)
@@ -15,6 +19,7 @@ Welcome to my personal portfolio. This project showcases my work as a developer 
 This portfolio is a reflection of my skills and projects as a web developer. It is designed to provide a seamless experience while being fast and responsive. You can explore the live version here: [andy-vasseur.vercel.app](https://andy-vasseur.vercel.app/).
 
 ## Features
+
 - **Modern UI/UX:** Built with TailwindCSS for fast and responsive design.
 - **Optimized Performance:** Using ViteJS for quick build times and fast refresh.
 - **TypeScript Integration:** Ensuring strong typing and clean code.
@@ -24,21 +29,21 @@ This portfolio is a reflection of my skills and projects as a web developer. It 
 To run this project locally, follow the steps below:
 
 1. Clone the repository:
-    ```bash
-    git clone https://github.com/Andy-Vasseur/portfolio_2025.git
-    ```
+   ```bash
+   git clone https://github.com/Andy-Vasseur/portfolio_2025.git
+   ```
 2. Navigate to the project folder:
-    ```bash
-    cd portfolio_2025
-    ```
+   ```bash
+   cd portfolio_2025
+   ```
 3. Install dependencies:
-    ```bash
-    yarn or yarn install
-    ```
+   ```bash
+   yarn or yarn install
+   ```
 4. Run the development server:
-    ```bash
-    yarn dev
-    ```
+   ```bash
+   yarn dev
+   ```
 
 ## Technologies
 
@@ -53,6 +58,7 @@ To run this project locally, follow the steps below:
 After installing and running the project, open [http://localhost:5173](http://localhost:5173) in your browser to view the portfolio.
 
 To build the project for production, run:
+
 ```bash
 yarn build
 ```
